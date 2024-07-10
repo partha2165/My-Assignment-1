@@ -17,7 +17,7 @@
 }
 
 .header-section>nav>h3>span{
-    color: aqua;
+    color: rgb(247, 24, 8);
 }
 .header-section>nav a{
     text-decoration: none;
@@ -40,8 +40,32 @@
     height: 600px;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    padding: 10px 10%;
     
+    
+    
+}
+.hero-content{
+    width: 950px;
+    height: 580px; 
+       
+}
+.hero-img{
+   width: 200px;
+   height: 150px;
+   margin-left: 300px;
+   
+}
+.hero-title>h3{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-weight: 700;   
+
+}
+.hero-title>h3 span{
+    margin-left: 250px;
 }
 .ddd{
     display: flex;

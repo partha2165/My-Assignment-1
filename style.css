@@ -17,7 +17,7 @@
 }
 
 .header-section>nav>h3>span{
-    color: rgb(247, 24, 8);
+    color: rgb(247, 8, 8);
 }
 .header-section>nav a{
     text-decoration: none;
@@ -54,21 +54,63 @@
 .hero-img{
    width: 200px;
    height: 150px;
-   margin-left: 300px;
+   margin-left: 350px;
    
 }
 .hero-title>h3{
-    font-size: 40px;
-    margin-top: 100px;
-    margin-left: 30px;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 40px;
     font-weight: 700;   
 
 }
 .hero-title>h3 span{
-    margin-left: 250px;
+    margin-left: 280px;
+    color: rgb(247, 8, 8);
 }
-.ddd{
+.hero-title>p{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 330px;
+    background-color: rgb(13, 19, 33);
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.btn:hover{
+   background-color: #fff;
+   color:rgb(13, 19, 33);
+}
+.devolopment-section{
+    width: 100%;
+    height:100vh;   
+    padding: 10px 10%;
+    
+   
+}
+.devolopment-title{
+    background-color:rgba(250,250,251,255);
+    border-radius: 20px;
+}
+.devolopment-title h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.devolopment-comtent{
     display: flex;
+    background-color: antiquewhite;
     justify-content: space-between;
     align-items: center;
+    width: 950px;
+    height: 400px;
 }

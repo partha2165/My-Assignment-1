@@ -26,6 +26,11 @@
     background-color: #fff;
     border-radius: 5px;
     padding: 10px 20px;
+    transition: 0.5s;
+}
+.header-section>nav a:hover{
+    background-color: #000;
+    color: #fff;
 }
 
 .hero-section{

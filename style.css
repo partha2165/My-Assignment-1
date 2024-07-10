@@ -94,7 +94,7 @@
 .main-con{
     background-color:rgba(250,250,251,255);
     width: 1300px;
-    height: 900px;
+    height: 1100px;
     margin: 40px 20px;
     border-radius: 10px;
     
@@ -123,9 +123,95 @@
     background-color: #fff;
     width: 600px;
     height: 200px;
+    margin-top: 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.devolopment-text h4{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 25px;
+    line-height: 22px;
+}
+.devolopment-text p{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+    
 }
 .middle-sec{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.dev-btn{
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 20px;
+    background-color:rgb(13, 19, 33); 
+    color: #fff;
+    transition: 0.5s;
+}
+.dev-btn:hover{
+    background-color: #fff;
+    color:rgb(13, 19, 33);
+}
+.dev-pic{
+   margin-right: 205x;
+   margin-top: 40px;
+   
+   
+}
+.middle-sec img{
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.devolopment-text-1{
+    background-color: #fff;
+    width: 600px;
+    height: 200px;
+    margin-top: 25px;
+    margin-right: 140px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.devolopment-text-1 h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+.devolopment-text-1 p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+.middle-btn{
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 20px;
+    background-color:rgb(13, 19, 33); 
+    color: #fff;
+    transition: 0.5s;
+
+}
+.middle-btn:hover{
+    background-color: #fff;
+    color:rgb(13, 19, 33);
+}
+.devolopment-text-1{
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 600px;
+    height: 200px;
 }

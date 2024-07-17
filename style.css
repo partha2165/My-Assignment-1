@@ -2,12 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Azeret Mono;    
 }
 /*header section styles start*/
-.body-text{
-   
-}
 
 .navbar-section>nav{
     display: flex;
@@ -39,6 +35,7 @@
     margin-top: 30px;
     padding-top: 30px;
     padding-left: 150px;
+    background-size: cover;   
 }
 .hero-section-content{
     max-width: 998px;
@@ -57,7 +54,7 @@
     font-size: 40px;
 }
 .hero-text, .sub-title{
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 25px;    
 }
 .btn{
@@ -196,9 +193,10 @@
 }
 /*My current section Style Start*/
 .my-current-section{
-    max-width: 1140px;
+    width: 1140px;
     height: 463px;
-    margin: 50px 150px 0 150px; 
+    margin: 50px 150px 0 150px;
+ 
 }
 .my-current-section h3{
     text-align: center;
@@ -214,7 +212,7 @@
     display: flex;
     gap: 20px;
     margin-top: 30px;
-    
+    width: 1140px;
     height: 463px;
 }
 .html-col{
@@ -226,9 +224,15 @@
 }
 .html-col p{
     font-size: 15px;
+    padding: 10px 5px;
 }
 .css-col p{
-    font-size: 15px;   
+    font-size: 15px;
+    padding: 10px 5px;   
+}
+.java-col p{
+    font-size: 15px;
+    padding: 10px 5px;  
 }
 .html-col img, .css-col img, .java-col img{
     margin-top: 15px;
@@ -239,22 +243,25 @@
     padding-left: 15px;
 }
 .html-col a{
-    padding-top: 18px;
+    padding-top: 15px;
     display: inline-block;
     font-size: 20px;
     color: #000;
+    margin-left: 15px;
 }
 .css-col a{
-    padding-top: 35px;
+    padding-top: 15px;
     display: inline-block;
     font-size: 20px;
     color: #000;
+    margin-left: 15px;
 }
 .java-col a{
-    padding-top: 35px;
+    padding-top: 15px;
     display: inline-block;
     font-size: 20px;
     color: #000;
+    margin-left: 15px;
 }
 .css-col{
     background-color: #f2f6fe;
@@ -270,31 +277,23 @@
     border-radius: 10px;
     padding: 20px 20px;   
 }
-
-/*My current section Style End*/
-
-
 /*Inspiration Section Start*/
 .Inspiration Section{
-    max-width: 1140px;
-    height: 775px;     
-}
-.Inspiration-content{
-    max-width: 852px;
-    height: 115px;
-  margin: 20px auto;
+    width: 1140px;
+    height: 775px;
+    background-color: beige;
+    border: 2px solid red;  
 }
 .Inspiration-title{
-   text-align: center;
-   font-size: 32px;
+   margin-left: 600px;
+   font-size: 40px;
    font-weight: 700;
-   padding-top: 50px; 
-  
+   margin-top: 40px;
 }
 .Inspiration-subtitle{
-    font-size: 20px;    
+    font-size: 20px;
+    margin-left: 200px;
     margin-top: 20px;
-    text-align: center;
 }
 .inspiration-vedio{
        

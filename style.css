@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Azeret Mono', 'sanas-sarif';
 }
 /*header section styles start*/
-
 .navbar-section>nav{
     display: flex;
     justify-content: space-between;
     margin: 30px 40px 0 40px;
+    
 }
 .navbar-section>nav h3{
     font-size: 30px;
@@ -281,27 +282,22 @@
 .Inspiration Section{
     width: 1140px;
     height: 775px;
-    background-color: beige;
-    border: 2px solid red;  
 }
 .Inspiration-title{
-   margin-left: 600px;
+    margin-left: 580px ;
    font-size: 40px;
    font-weight: 700;
    margin-top: 40px;
 }
 .Inspiration-subtitle{
-    font-size: 20px;
-    margin-left: 200px;
-    margin-top: 20px;
-}
-.inspiration-vedio{
-       
+    font-size: 17px;    
+    margin-left: 250px;
+    margin-top: 20px;   
 }
 .inspiration-vedio iframe{
     width: 1135px;
     height: 500px;
-    margin-top: 48px;
+    margin-top: 50px;
     margin-left: 145px;
     border-radius: 10px;
 }
@@ -333,7 +329,7 @@
     font-weight: 700;
 }
 .Support-content p{
-    font-size: 15px;
+    font-size: 20px;
     color: #fff;
     text-align: center;
     margin-top: 15px;
